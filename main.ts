@@ -1,5 +1,4 @@
 import {startStandaloneServer} from "@apollo/server/standalone";
-import mongoose from "mongoose";
 import {ApolloServer} from "@apollo/server";
 import {typeDefs} from "./schema.ts";
 import {Query} from "./Query.ts";
